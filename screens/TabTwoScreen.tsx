@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, SafeAreaView } from 'react-native';
 
 import EditScreenInfo from '../components/EditScreenInfo';
 import StopWatchButton from '../components/TimerButton'
@@ -7,7 +7,7 @@ import { Text, View } from '../components/Themed';
 
 export default function TabTwoScreen() {
   return (
-    <StopWatchButton />
+      <StopWatchButton />
   );
 }
 
