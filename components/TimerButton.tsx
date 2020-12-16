@@ -17,12 +17,12 @@ export default function StopWatchButton() {
         if(interval) clearInterval(interval);
         
         let newInterval = window.setInterval(()=>{
-            let now = Date.now();
-            setTimer(timer + (now - timeStamp));
+ //           let now = Date.now();
+            setTimer(timer + 21);
 
-            setTimeStamp(now);
+ //         setTimeStamp(now);
 
-        }, 66);
+        }, 21);
         setIntervalID(newInterval);
 
     } else{//STOP the timer
